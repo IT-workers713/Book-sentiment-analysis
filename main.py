@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 import nltk
 nltk.download('vader_lexicon')
-
+#nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 filepaths = sorted(glob.glob("diary/*.txt"))
